@@ -31,6 +31,7 @@ public class WhileGaji11 {
             }else {
                 System.out.println("jabatan tidak valid");
                 continue;
+                
             }
             totalGajiLembur += gajiLembur;
            
