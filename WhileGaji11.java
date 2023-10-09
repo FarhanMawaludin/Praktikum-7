@@ -30,7 +30,7 @@ public class WhileGaji11 {
                 gajiLembur = jumlahJamLembur * 75000;
             }else {
                 System.out.println("jabatan tidak valid");
-                continue;
+                i--;
                 
             }
             totalGajiLembur += gajiLembur;
