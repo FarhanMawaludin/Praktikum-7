@@ -22,8 +22,11 @@ public class DoWhileCuti11 {
                 System.out.println("Sisa jatah cuti " + jatahCuti);
             }else {
                 System.out.println("Sisa jatah cuti anda tidak ada");
-                
+                break;
             }
+            }else {
+                System.out.println("Terimakasih anda tidak cuti");
+                break;
             }
         }while(jatahCuti > 0);
 
